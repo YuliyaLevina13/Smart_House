@@ -1,4 +1,5 @@
-package ru.netology
+package ru.netology;
+
 public class Radio {
     private int currentNumber;
     private int soundVolume;
@@ -42,7 +43,7 @@ public class Radio {
     }
 
     protected void volumeUp() {
-        if (soundVolume < 100) {
+        if (soundVolume == 100) {
             soundVolume = 100;
         } else {
 
